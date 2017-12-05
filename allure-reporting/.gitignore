@@ -1,0 +1,8 @@
+.idea/*
+*.jar
+*.war
+*.ear
+sample-project.iml
+target/
+allure-results/
+binaries/
