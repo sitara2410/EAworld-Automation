@@ -1,10 +1,10 @@
-package org.sample.tests;
+package org.eaworld.tests;
 
 import org.testng.annotations.Test;
 
 import com.google.inject.Inject;
 
-import org.sample.pageimpl.EAWorldHomePageImpl;
+import org.eaworld.pageimpl.EAWorldHomePageImpl;
 
 
 

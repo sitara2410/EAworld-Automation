@@ -1,4 +1,4 @@
-package org.sample.modules;
+package org.eaworld.modules;
 
 import com.google.inject.AbstractModule;
 import com.google.inject.Provides;
@@ -7,10 +7,10 @@ import com.google.inject.name.Names;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.sample.browser.ChromeDriverManager;
-import org.sample.browser.DriverManager;
-import org.sample.browser.FirefoxDriverManager;
-import org.sample.browser.IEDriverManager;
+import org.eaworld.browser.ChromeDriverManager;
+import org.eaworld.browser.DriverManager;
+import org.eaworld.browser.FirefoxDriverManager;
+import org.eaworld.browser.IEDriverManager;
 
 import java.io.FileInputStream;
 import java.util.Properties;

@@ -1,4 +1,4 @@
-package org.sample.browser;
+package org.eaworld.browser;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;

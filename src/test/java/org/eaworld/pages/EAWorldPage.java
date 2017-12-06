@@ -1,4 +1,4 @@
-package org.sample.pages;
+package org.eaworld.pages;
 
 import com.google.inject.Inject;
 

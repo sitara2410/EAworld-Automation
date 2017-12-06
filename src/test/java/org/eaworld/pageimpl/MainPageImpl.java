@@ -1,4 +1,4 @@
-package org.sample.pageimpl;
+package org.eaworld.pageimpl;
 
 import com.google.inject.Inject;
 import com.google.inject.name.Named;
@@ -8,7 +8,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.sample.pages.MainPage;
+import org.eaworld.pages.MainPage;
 import org.testng.ITestResult;
 
 import java.io.File;

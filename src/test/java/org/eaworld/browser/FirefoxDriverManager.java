@@ -1,4 +1,4 @@
-package org.sample.browser;
+package org.eaworld.browser;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;

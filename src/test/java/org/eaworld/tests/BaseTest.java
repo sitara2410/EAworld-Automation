@@ -1,8 +1,8 @@
-package org.sample.tests;
+package org.eaworld.tests;
 
 import com.google.inject.Inject;
-import org.sample.modules.DriverModule;
-import org.sample.pageimpl.MainPageImpl;
+import org.eaworld.modules.DriverModule;
+import org.eaworld.pageimpl.MainPageImpl;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;

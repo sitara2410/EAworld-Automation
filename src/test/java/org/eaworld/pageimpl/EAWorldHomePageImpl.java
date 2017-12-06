@@ -1,8 +1,8 @@
-package org.sample.pageimpl;
+package org.eaworld.pageimpl;
 
 import com.google.inject.Inject;
 import org.openqa.selenium.WebDriver;
-import org.sample.pages.EAWorldPage;
+import org.eaworld.pages.EAWorldPage;
 
 public class EAWorldHomePageImpl extends MainPageImpl {
 
