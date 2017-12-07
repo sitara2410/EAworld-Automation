@@ -12,15 +12,10 @@ public class EAWorldPage extends MainPage {
     WebDriver driver;
 
     @Inject
-    public EAWorldPage(WebDriver driver, WebElement menuButton) {
+    public EAWorldPage(WebDriver driver) {
         super(driver);
     }
 
-    @Inject
-    public EAWorldPage(WebDriver driver) {
-        super(driver);
-        // TODO Auto-generated constructor stub
-    }
 
     @FindBy(css = ".eaw-navigation__toggle")
     private WebElement menuButton;

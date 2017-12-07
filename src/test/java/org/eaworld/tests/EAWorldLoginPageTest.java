@@ -11,7 +11,7 @@ import org.eaworld.pageimpl.EAWorldHomePageImpl;
 import org.testng.internal.BaseTestMethod;
 
 
-public class EAWorldLoginPageTest {
+public class EAWorldLoginPageTest extends BaseTest {
 
     @Inject
     EAWorldHomePageImpl eaWorldHomePageImpl;
@@ -19,8 +19,7 @@ public class EAWorldLoginPageTest {
     @Test
     public void loginTest() 
     {
-        //Assert.assertFalse(true);
-        //mainPage.getEaWorldPage().menuButtonclick();
+
         eaWorldHomePageImpl.getEaWorldPage().searchButtonclick();
         eaWorldHomePageImpl.waitForSecs(5);
 
