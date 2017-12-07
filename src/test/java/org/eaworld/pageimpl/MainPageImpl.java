@@ -38,6 +38,7 @@ public class MainPageImpl {
     }
 
     public void goTo() {
+        driver.manage().window().maximize();
         driver.get(url);
     }
 
