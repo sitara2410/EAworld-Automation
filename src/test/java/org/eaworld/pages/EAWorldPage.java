@@ -8,31 +8,29 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 
-public class EAWorldPage  extends MainPage 
-{
-	WebDriver driver;
-  /*  @Inject
-    public EAWorldPage(WebDriver driver, WebElement menuButton) 
-    {
+public class EAWorldPage extends MainPage {
+    WebDriver driver;
+
+    @Inject
+    public EAWorldPage(WebDriver driver, WebElement menuButton) {
         super(driver);
-    }*/
-	@Inject
-   public EAWorldPage(WebDriver driver) {
-		super(driver);
-		// TODO Auto-generated constructor stub
-	}
+    }
 
-@FindBy(css=".eaw-navigation__toggle") private WebElement menuButton;
+    @Inject
+    public EAWorldPage(WebDriver driver) {
+        super(driver);
+        // TODO Auto-generated constructor stub
+    }
 
-    //@FindBy(css = ".fa.fa-fw.fa-search") private WebElement searchButton;
-    
-    //#site-header > ul > li:nth-child(1) > div > a > i
+    @FindBy(css = ".eaw-navigation__toggle")
+    private WebElement menuButton;
 
-    public void searchButtonclick()
-    {
-    	driver.navigate().to("https://eaworld.ea.com/");
-    WebElement searchButton = driver.findElement(By.cssSelector(".fa.fa-fw.fa-search"));    
-    	searchButton.click();
+    @FindBy(css = "a[title=Search]")
+    private WebElement searchButton;
+
+    public void searchButtonclick() {
+
+        searchButton.click();
         System.out.println("Sitara!");
         try {
             Thread.sleep(5000); // This is for Hard wait on page for 5 secs
@@ -40,8 +38,6 @@ public class EAWorldPage  extends MainPage
             e.printStackTrace();
         }
     }
-
-
 
 
 }
