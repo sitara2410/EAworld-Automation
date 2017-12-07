@@ -2,6 +2,6 @@
 *.jar
 *.war
 *.ear
-sample-project.iml
+*.iml
 target/
 allure-results/
